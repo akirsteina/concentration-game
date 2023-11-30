@@ -149,10 +149,9 @@ const GameBoard = () => {
         cardDeck = <p className='text-light'>Found no images, come back later...</p>;
     }
 
-    return <main className='container-fluid text-center py-2'>
-        <div className='row py-10'>
+    return <section className='container-fluid text-center py-2'>
+        <div className='row pt-4'>
             <div className='col'>
-                <h1 className='text-light'>Concentration Game</h1>
                 <button className='btn btn-dark' onClick={fetchImages}>Start new game</button>
             </div>
         </div>
@@ -170,7 +169,7 @@ const GameBoard = () => {
             </div>
             <div className='col-12 col-md-2 col-xl-3 col-xxl-4'></div>
         </div>
-    </main>
+    </section>
 }
 
 export default GameBoard;

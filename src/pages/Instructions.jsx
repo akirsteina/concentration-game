@@ -1,5 +1,5 @@
 const Instructions = () => {
-    return <main className='container instructions'>
+    return <section className='container instructions'>
         <div className='row justify-content-center py-3'>
             <div className='col-md-8'>
                 <div className='card'>
@@ -34,7 +34,7 @@ const Instructions = () => {
                 </div>
             </div>
         </div>
-    </main>;
+    </section>;
 }
 
 export default Instructions;

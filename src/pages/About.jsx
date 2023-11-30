@@ -4,7 +4,7 @@ import { faUser } from '@fortawesome/free-solid-svg-icons';
 import './About.css';
 
 const About = () => {
-    return <main className='container my-5'>
+    return <section className='container my-5'>
     <div className='row py-2'>
       <div className='col'>
         <h2 className='text-center text-light mb-5' id='about-title'>About Us</h2>
@@ -24,7 +24,8 @@ const About = () => {
       </div>
     </div>
     <div className='row mt-5'>
-      <div className='col-md-6 py-1'>
+      <div className="col-md-2"></div>
+      <div className='col-sm-6 col-md-4 py-1'>
         <div className='card text-bg-dark'>
           <img
             src='https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw3NjA4Mjc3NHx8ZW58MHx8fHx8'
@@ -40,7 +41,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className='col-md-6 py-1'>
+      <div className='col-sm-6 col-md-4 py-1'>
         <div className='card text-bg-dark'>
           <img
             src='https://images.unsplash.com/photo-1597589827317-4c6d6e0a90bd?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3F1YXJlfGVufDB8fDB8fHww'
@@ -56,8 +57,9 @@ const About = () => {
           </div>
         </div>
       </div>
+      <div className="col-lg-2"></div>
     </div>
-  </main>;
+  </section>;
 }
 
 export default About;
