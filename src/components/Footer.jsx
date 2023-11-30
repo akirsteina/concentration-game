@@ -7,7 +7,7 @@ const Footer = () => {
     return <footer className='container-fluid py-2'>
         <div className='row align-items-center'>
             <div className='col-sm-6 col-12 text-center'>
-                <p className='m-1 text-center'>&copy; 2023 The Concentration game</p>
+                <p className='m-1 text-center'>&copy; 2023 The Concentration game V3</p>
             </div>
             <div className='col-sm-6 col-12 text-center'>
                 <p className='m-1 text-center'>Contact us:</p>
