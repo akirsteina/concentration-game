@@ -1,0 +1,16 @@
+footer {
+    background-color: #2a2f33;
+    color: #ffffff;
+    margin-top: auto;
+}
+
+.icon-link {
+    text-decoration: none;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.icon-link:hover {
+    color: #68F281;
+	text-shadow: 1px 1px 5px #ffffff;
+}

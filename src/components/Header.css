@@ -1,0 +1,31 @@
+nav {
+    background-color: #2a2f33;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+nav ul li a:hover {
+    color: #68F281;
+	text-shadow: 1px 1px 5px #ffffff;
+}
+
+
+nav .nav-home {
+    margin: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.active {
+    color: rgb(64, 184, 124);
+}
+
+ul {
+    margin: 1rem;
+}

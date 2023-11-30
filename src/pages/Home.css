@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+#homepage-title-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Sacramento', cursive;
+}
+
+#homepage-title-link:hover {
+    color: #68F281;
+	text-shadow: 1px 1px 5px #ffffff;
+}
+
+/* If the screen size is 1200px wide or more, set the font-size to 80px */
+@media (min-width: 500px) {
+    #homepage-title-link {
+        font-size: 3rem;
+    }
+}
+
+/* If the screen size is smaller than 1200px, set the font-size to 80px */
+@media (max-width: 499.98px) {
+    #homepage-title-link {
+        font-size: 2rem;
+    }
+}

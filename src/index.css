@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&family=Sacramento&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image: radial-gradient(ellipse at top left, #2a2f33, #092b16);
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 100 !important;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
