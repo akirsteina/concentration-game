@@ -25,6 +25,6 @@
     }
 }
 
-section {
-    min-height: 70vh;
+section.home {
+    min-height: 60vh;
 }

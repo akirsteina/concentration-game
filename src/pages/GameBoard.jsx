@@ -149,7 +149,7 @@ const GameBoard = () => {
         cardDeck = <p className='text-light'>Found no images, come back later...</p>;
     }
 
-    return <section className='container-fluid text-center py-2'>
+    return <section className='gameboard container-fluid text-center py-2'>
         <div className='row pt-4'>
             <div className='col'>
                 <button className='btn btn-dark' onClick={fetchImages}>Start new game</button>
